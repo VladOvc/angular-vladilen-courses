@@ -1,0 +1,16 @@
+<div>
+    <button (click)="backgroundToggle = !backgroundToggle">Toggle text</button>
+
+    <p [ngClass]="{
+        red: backgroundToggle,
+        blue: !backgroundToggle
+    }">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, eveniet.</p>
+
+    <p 
+    [class.red]="backgroundToggle"
+    [class.blue]="!backgroundToggle"
+    >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, quas?
+    </p>
+
+</div>
