@@ -12,12 +12,13 @@ export class PostComponent {
     age: 22
   }
 
-  reactLogo = 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg'
+  reactLogo = 'Vlad'
   angularLogo = 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg'
 
   constructor() {
     setTimeout(() => {
-      this.reactLogo = 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg'
-    },500)
+      console.log('timeout is over')
+      this.reactLogo = 'Andrey'
+    },1000)
   }
 }

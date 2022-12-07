@@ -1,0 +1,13 @@
+<div>
+    <button (click)="onClick()">Ckick me</button>
+
+    <div>
+    <input type="text" (keyup)="firstNameEmployeeUpdate($event)">
+    <p><strong>{{firstNameEmployee}}</strong></p>
+    </div>
+
+    <div>
+    <input type="text" (keyup)="lastNameEmployeeUpdate($event)">
+    <p><strong>{{lastNameEmployee}}</strong></p>
+    </div>
+</div>
