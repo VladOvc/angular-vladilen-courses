@@ -1,0 +1,9 @@
+<div>
+  <button (click)="toggle = !toggle">Toggle</button>
+
+  <p *ngIf="toggle; else blueP" class="red">Lorem ipsum dolor.</p>
+
+  <ng-template #blueP>
+    <p *ngIf="!toggle" class="blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur impedit molestiae placeat ullam veniam.</p>
+  </ng-template>
+</div>

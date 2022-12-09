@@ -10,6 +10,10 @@ import {PostComponent} from "./post/post.component";
 import { Post2Component } from './post2/post2.component';
 import { TwoWayBindingComponent } from './twoWayBinding/twoWayBinding.component';
 import { WayBindingComponent } from './wayBinding/wayBinding.component';
+import {NgIfComponent} from "./ngIf/ngIf.component";
+import { NgSwitchComponent } from './ng-switch/ng-switch.component';
+import { NgForComponent } from './ng-for/ng-for.component';
+import { PipeComponent } from './pipe/pipe.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { WayBindingComponent } from './wayBinding/wayBinding.component';
     WayBindingComponent,
     TwoWayBindingComponent,
     NgStyleComponent,
-    NgClassComponent
+    NgClassComponent,
+    NgIfComponent,
+    NgSwitchComponent,
+    NgForComponent,
+    PipeComponent
   ],
   imports: [
     BrowserModule,
